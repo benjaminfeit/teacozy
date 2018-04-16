@@ -54,11 +54,12 @@ body{
 }
 
 #month{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 1000px;
-  flex-wrap: wrap;
+}
+
+#steeping{
+  text-align: center;
+  align-items: center;
 }
 
 #month img{
@@ -69,4 +70,7 @@ body{
 #teas{
   text-align: center;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
