@@ -55,6 +55,7 @@ body{
 
 #month{
   width: 1000px;
+  text-align: center;
 }
 
 #steeping{
@@ -71,6 +72,5 @@ body{
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
 }
