@@ -66,8 +66,7 @@ body{
   width: 300px;
 }
 
-#month div{
+#teas{
   text-align: center;
   display: flex;
-  flex-direction: column;
 }
