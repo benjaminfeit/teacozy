@@ -47,6 +47,14 @@ body{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg")
 }
 
+#mission h2{
+  background-color: black;
+}
+
+#mission h4{
+  background-color: black;
+}
+
 #month{
   display: flex;
   align-items: center;
