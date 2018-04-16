@@ -47,12 +47,10 @@ body{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg")
 }
 
-#mission h2{
+#missiontext{
   background-color: black;
-}
-
-#mission h4{
-  background-color: black;
+  width: 1200px;
+  text-align: center;
 }
 
 #month{
@@ -61,34 +59,15 @@ body{
   flex-direction: column;
   justify-content: center;
   width: 1000px;
+  flex-wrap: wrap;
 }
 
-#berryblitz{
-  display: flex;
+#month img{
   height: 200px;
   width: 300px;
-}
-
-#spicedrum{
-    display: flex;
-    height: 200px;
-    width: 300px;
-}
-
-#donuts{
-    display: flex;
-    height: 200px;
-    width: 300px;
-}
-
-#myrtle{
-    display: flex;
-    height: 200px;
-    width: 300px;
-}
-
-#bedford{
   display: flex;
-  height: 200px;
-  width: 300px;
+}
+
+#month div{
+  text-align: center;
 }
