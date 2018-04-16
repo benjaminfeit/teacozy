@@ -29,3 +29,58 @@ body{
   color: seashell;
   text-decoration: underline;
 }
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#mission{
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg")
+}
+
+#month{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+}
+
+#berryblitz{
+  display: flex;
+  height: 200px;
+  width: 300px;
+}
+
+#spicedrum{
+    display: flex;
+    height: 200px;
+    width: 300px;
+}
+
+#donuts{
+    display: flex;
+    height: 200px;
+    width: 300px;
+}
+
+#myrtle{
+    display: flex;
+    height: 200px;
+    width: 300px;
+}
+
+#bedford{
+  display: flex;
+  height: 200px;
+  width: 300px;
+}
