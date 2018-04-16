@@ -56,7 +56,6 @@ body{
 #month{
   display: flex;
   align-items: center;
-  flex-direction: column;
   justify-content: center;
   width: 1000px;
   flex-wrap: wrap;
@@ -65,9 +64,10 @@ body{
 #month img{
   height: 200px;
   width: 300px;
-  display: flex;
 }
 
 #month div{
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
